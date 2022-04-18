@@ -1,0 +1,42 @@
+*{
+ color: #fff;
+}
+
+header{
+ border-bottom: 1px solid #fff;
+ width: 100%;
+height: 110px;
+}
+
+.navbar{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 90%;
+ height: 100%;
+ margin: 0 auto;
+}
+.logo{
+font-weight: 700;
+font-size: 23px;
+letter-spacing: 2px;
+}
+a{
+ text-decoration: none;
+}
+li{
+ list-style-type: none;
+ margin-left: 45px;
+}
+li:first-child{
+ margin-left: 0;
+}
+.menu-list{
+ display: flex;
+ margin-left: 189px;
+ letter-spacing: 1px;
+}
+.menu-icons{
+ display: flex;
+ margin-left: 518px;
+}

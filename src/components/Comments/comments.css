@@ -1,0 +1,62 @@
+.comments{
+ width: 30%;
+}
+.comments_header{
+ height: 81px;
+ width: 100%;
+ border-bottom: 1px solid #fff;
+}
+.header_text{
+ font-weight: 700;
+font-size: 28px;
+text-align: center;
+}
+.comments_main{
+ overflow: auto;
+ overflow-y: scroll;
+ -ms-overflow-style: none;
+      scrollbar-width: none;
+ height: 535px;
+width: 100%;
+border-bottom: 1px solid #fff;
+}
+.form{
+ display: flex;
+ flex-direction: column;
+ width: 360px;
+ margin: 40px auto;
+}
+.username_input{
+ width: 360px;
+height: 40px;
+border: 2px solid #FFFFFF;
+border-radius: 5px;
+background-color: inherit;
+font-weight: 300;
+font-size: 13px;
+color: #fff;
+}
+.comment_textarea{
+ width: 360px;
+ height: 120px;
+ margin-top: 15px;
+ border-radius: 5px;
+ border: 2px solid #FFFFFF;
+background-color: inherit;
+font-weight: 300;
+font-size: 13px;
+color: #fff;
+}
+.submit{
+ width: 80px;
+height: 30px;
+background: #885FFB;
+border-radius: 5px;
+color: #fff;
+margin-top: 15px;
+margin-left: 290px;
+}
+.comment_text{
+ width: 360px;
+ margin: 40px auto;
+}
