@@ -22,9 +22,14 @@ function Comments(){
   };
 
   const handleSubmit = (e) => {
-   alert('Sorry,couldnt add comment')
     e.preventDefault();
-        setValues(initialValues);    
+    axios
+    .post(
+      `https://624b0e2171e21eebbcec0e9d.mockapi.io/api/v1/movies/${movieId}/comments`,values).finally(()=>{
+        setValues(initialValues); 
+        getComments();
+      })
+        
   };
 
   useEffect(() => {
